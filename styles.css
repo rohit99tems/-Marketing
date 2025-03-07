@@ -1,0 +1,94 @@
+/* Custom CSS for additional styling */
+body {
+  scroll-behavior: smooth;
+}
+
+/* Fade-in animation */
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+}
+
+
+
+/* Why Choose Us Section */
+.why-choose-us .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.why-choose-us .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.why-choose-us i {
+  transition: color 0.3s ease;
+}
+
+.why-choose-us .card:hover i {
+  color: #2563eb; /* Darker blue on hover */
+}
+
+.service-card {
+  position: relative;
+}
+
+.overlay {
+  transition: opacity 0.3s ease;
+}
+
+.overlay p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+
+/* Hover effects for cards */
+.card-hover {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card-hover:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Custom CSS for Testimonials and Contact Sections */
+
+/* Testimonials Section */
+.testimonials .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonials .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials img {
+  border: 3px solid #3b82f6; /* Blue border for client images */
+}
+
+/* Contact Section */
+.contact input,
+.contact textarea {
+  transition: border-color 0.3s ease;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  border-color: #3b82f6; /* Blue border on focus */
+  outline: none;
+}
+
+.contact button {
+  transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+  background-color: #2563eb; /* Darker blue on hover */
+}
